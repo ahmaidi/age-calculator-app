@@ -51,7 +51,7 @@ function validation_year(errorYear, year, yearSpan) {
     year.value,
     1920,
     2023,
-    "Must be in the past"
+    "Must be in the between 1920 and Now"
   );
   if (errorMessage) {
     error(errorYear, year, yearSpan, errorMessage);
